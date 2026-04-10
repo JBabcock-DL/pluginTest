@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo:*)",
+      "Bash(gh label:*)",
+      "Bash(gh project:*)",
+      "Bash(cp C:/Users/jbabc/.claude/plugins/marketplaces/local-desktop-app-uploads/dl-agent-workflow/templates/workflow.md C:/Users/jbabc/Documents/GitHub/pluginTest/.claude/worktrees/compassionate-hamilton/.github/templates/workflow.md)",
+      "Bash(cp C:/Users/jbabc/.claude/plugins/marketplaces/local-desktop-app-uploads/dl-agent-workflow/templates/agent-handoff.md C:/Users/jbabc/Documents/GitHub/pluginTest/.claude/worktrees/compassionate-hamilton/.github/templates/agent-handoff.md)",
+      "Bash(cp C:/Users/jbabc/.claude/plugins/marketplaces/local-desktop-app-uploads/dl-agent-workflow/templates/bug_report.md C:/Users/jbabc/Documents/GitHub/pluginTest/.claude/worktrees/compassionate-hamilton/.github/templates/bug_report.md)",
+      "Bash(cp C:/Users/jbabc/.claude/plugins/marketplaces/local-desktop-app-uploads/dl-agent-workflow/templates/work_order.md C:/Users/jbabc/Documents/GitHub/pluginTest/.claude/worktrees/compassionate-hamilton/.github/templates/work_order.md)",
+      "Bash(cp C:/Users/jbabc/.claude/plugins/marketplaces/local-desktop-app-uploads/dl-agent-workflow/skills/__TRACKED_VAR__/SKILL.md C:/Users/jbabc/Documents/GitHub/pluginTest/.claude/worktrees/compassionate-hamilton/.claude/skills/__TRACKED_VAR__/SKILL.md)"
+    ]
+  }
+}
