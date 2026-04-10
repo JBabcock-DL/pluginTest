@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo:*)",
+      "Bash(gh label:*)",
+      "Bash(gh project:*)",
+      "Bash(gh api graphql -f 'query=:*)"
+    ]
+  }
+}
