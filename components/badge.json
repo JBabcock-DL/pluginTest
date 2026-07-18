@@ -1,0 +1,26 @@
+{
+  "v": 1,
+  "kind": "component-spec",
+  "name": "Badge",
+  "framework": "react",
+  "id": "e6bff8c4-a888-4348-a5b3-63429e3c46ac",
+  "variantMatrix": {
+    "type": [
+      "variable",
+      "syntax",
+      "value",
+      "group-annotation"
+    ]
+  },
+  "props": [],
+  "bindings": [],
+  "layout": {
+    "direction": "horizontal",
+    "gap": "8",
+    "sizing": {
+      "horizontal": "hug",
+      "vertical": "hug"
+    }
+  },
+  "slug": "badge"
+}
