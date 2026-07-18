@@ -1,0 +1,24 @@
+{
+  "v": 1,
+  "kind": "component-spec",
+  "name": "Swatch",
+  "framework": "react",
+  "id": "558d55d4-189f-4b9f-9dd1-617d33815484",
+  "variantMatrix": {
+    "size": [
+      "sm",
+      "lg"
+    ]
+  },
+  "props": [],
+  "bindings": [],
+  "layout": {
+    "direction": "horizontal",
+    "gap": "8",
+    "sizing": {
+      "horizontal": "hug",
+      "vertical": "hug"
+    }
+  },
+  "slug": "swatch"
+}

@@ -1,0 +1,87 @@
+{
+  "v": 1,
+  "kind": "component-spec",
+  "name": "Input",
+  "framework": "react",
+  "id": "bf2b86cf-1eda-48a8-9941-aeabffe67006",
+  "variantMatrix": {
+    "state": [
+      "default",
+      "focus-visible",
+      "disabled",
+      "invalid"
+    ]
+  },
+  "props": [
+    {
+      "name": "Leading icon",
+      "type": "boolean",
+      "default": false
+    },
+    {
+      "name": "placeholder",
+      "type": "string",
+      "default": "you@example.com"
+    },
+    {
+      "name": "readOnly",
+      "type": "boolean",
+      "default": false
+    }
+  ],
+  "bindings": [
+    {
+      "selector": "root.bottomLeftRadius",
+      "variable": "Corner/Medium"
+    },
+    {
+      "selector": "root.bottomRightRadius",
+      "variable": "Corner/Medium"
+    },
+    {
+      "selector": "root.paddingBottom",
+      "variable": "padding/py/1_5"
+    },
+    {
+      "selector": "root.paddingLeft",
+      "variable": "padding/px/5"
+    },
+    {
+      "selector": "root.paddingRight",
+      "variable": "padding/px/5"
+    },
+    {
+      "selector": "root.paddingTop",
+      "variable": "padding/py/1_5"
+    },
+    {
+      "selector": "root.stroke",
+      "variable": "border/destructive"
+    },
+    {
+      "selector": "root.stroke",
+      "variable": "border/input"
+    },
+    {
+      "selector": "root.topLeftRadius",
+      "variable": "Corner/Medium"
+    },
+    {
+      "selector": "root.topRightRadius",
+      "variable": "Corner/Medium"
+    },
+    {
+      "selector": "text/label.fill",
+      "variable": "text/foreground"
+    }
+  ],
+  "layout": {
+    "direction": "horizontal",
+    "gap": "8",
+    "sizing": {
+      "horizontal": "hug",
+      "vertical": "hug"
+    }
+  },
+  "slug": "input"
+}
