@@ -7,7 +7,7 @@ import { Swatch } from '@/components/ui/swatch';
  */
 figma.connect(
   Swatch,
-  'https://www.figma.com/design/G36ynx8X2JuP6hCDz2Z8Bz/Untitled?node-id=1-569',
+  'https://www.figma.com/design/M3vtjnaNG0XPYvb3Y9LJRH/Untitled?node-id=1-646',
   {
     props: {
       size: figma.enum('size', { Sm: 'sm', Lg: 'lg' }),

@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge';
  */
 figma.connect(
   Badge,
-  'https://www.figma.com/design/G36ynx8X2JuP6hCDz2Z8Bz/Untitled?node-id=1-559',
+  'https://www.figma.com/design/M3vtjnaNG0XPYvb3Y9LJRH/Untitled?node-id=1-636',
   {
     props: {
       type: figma.enum('type', { Variable: 'variable', Syntax: 'syntax', Value: 'value', GroupAnnotation: 'group-annotation' }),
