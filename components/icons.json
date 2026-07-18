@@ -1,0 +1,29 @@
+{
+  "v": 1,
+  "kind": "component-spec",
+  "name": "Icons",
+  "framework": "react",
+  "id": "5b154c7e-8f75-4b33-93ef-197d9cf0b259",
+  "variantMatrix": {
+    "icon": [
+      "variable",
+      "palette",
+      "squircle",
+      "dl",
+      "logo-material",
+      "logo-apple",
+      "logo-web"
+    ]
+  },
+  "props": [],
+  "bindings": [],
+  "layout": {
+    "direction": "horizontal",
+    "gap": "8",
+    "sizing": {
+      "horizontal": "hug",
+      "vertical": "hug"
+    }
+  },
+  "slug": "icons"
+}
