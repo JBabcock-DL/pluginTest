@@ -402,23 +402,9 @@
       "ambiguous": false
     },
     {
-      "var": "--spacing",
-      "collection": "primitives",
-      "name": "Primitives/Space/base",
-      "mode": "Default",
-      "ambiguous": false
-    },
-    {
       "var": "--calc(var(--spacing) * 0)",
       "collection": "primitives",
       "name": "Primitives/Space/0",
-      "mode": "Default",
-      "ambiguous": false
-    },
-    {
-      "var": "--calc(var(--spacing) * 0.5)",
-      "collection": "primitives",
-      "name": "Primitives/Space/0_5",
       "mode": "Default",
       "ambiguous": false
     },
@@ -430,13 +416,6 @@
       "ambiguous": false
     },
     {
-      "var": "--calc(var(--spacing) * 1.5)",
-      "collection": "primitives",
-      "name": "Primitives/Space/1_5",
-      "mode": "Default",
-      "ambiguous": false
-    },
-    {
       "var": "--calc(var(--spacing) * 2)",
       "collection": "primitives",
       "name": "Primitives/Space/2",
@@ -444,23 +423,9 @@
       "ambiguous": false
     },
     {
-      "var": "--calc(var(--spacing) * 2.5)",
-      "collection": "primitives",
-      "name": "Primitives/Space/2_5",
-      "mode": "Default",
-      "ambiguous": false
-    },
-    {
       "var": "--calc(var(--spacing) * 3)",
       "collection": "primitives",
       "name": "Primitives/Space/3",
-      "mode": "Default",
-      "ambiguous": false
-    },
-    {
-      "var": "--calc(var(--spacing) * 3.5)",
-      "collection": "primitives",
-      "name": "Primitives/Space/3_5",
       "mode": "Default",
       "ambiguous": false
     },
@@ -647,6 +612,41 @@
       "ambiguous": false
     },
     {
+      "var": "--spacing",
+      "collection": "primitives",
+      "name": "Primitives/Space/base",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--calc(var(--spacing) * 0.5)",
+      "collection": "primitives",
+      "name": "Primitives/Space/0_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--calc(var(--spacing) * 1.5)",
+      "collection": "primitives",
+      "name": "Primitives/Space/1_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--calc(var(--spacing) * 2.5)",
+      "collection": "primitives",
+      "name": "Primitives/Space/2_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--calc(var(--spacing) * 3.5)",
+      "collection": "primitives",
+      "name": "Primitives/Space/3_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
       "var": "--elevation-0",
       "collection": "primitives",
       "name": "Primitives/elevation/0",
@@ -721,7 +721,7 @@
       "collection": "primitives",
       "name": "Primitives/opacity/0",
       "mode": "Default",
-      "ambiguous": false
+      "ambiguous": true
     },
     {
       "var": "--opacity-5",
@@ -735,7 +735,7 @@
       "collection": "primitives",
       "name": "Primitives/opacity/10",
       "mode": "Default",
-      "ambiguous": false
+      "ambiguous": true
     },
     {
       "var": "--opacity-12",
@@ -784,14 +784,14 @@
       "collection": "primitives",
       "name": "Primitives/opacity/40",
       "mode": "Default",
-      "ambiguous": false
+      "ambiguous": true
     },
     {
       "var": "--opacity-50",
       "collection": "primitives",
       "name": "Primitives/opacity/50",
       "mode": "Default",
-      "ambiguous": false
+      "ambiguous": true
     },
     {
       "var": "--opacity-60",
@@ -805,7 +805,7 @@
       "collection": "primitives",
       "name": "Primitives/opacity/70",
       "mode": "Default",
-      "ambiguous": false
+      "ambiguous": true
     },
     {
       "var": "--opacity-80",
@@ -833,14 +833,14 @@
       "collection": "primitives",
       "name": "Primitives/opacity/100",
       "mode": "Default",
-      "ambiguous": false
+      "ambiguous": true
     },
     {
       "var": "--border-0",
       "collection": "primitives",
       "name": "Primitives/border/0",
       "mode": "Default",
-      "ambiguous": false
+      "ambiguous": true
     },
     {
       "var": "--border-100",
@@ -937,6 +937,1665 @@
       "var": "--font-typeface-body",
       "collection": "primitives",
       "name": "Primitives/font/typeface/body",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-foreground",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/text/foreground",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-primary",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/text/primary",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-destructive",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/text/destructive",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-muted-foreground",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/text/muted-foreground",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-background",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/text/background",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-primary-foreground",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/text/primary-foreground",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-secondary-foreground",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/text/secondary-foreground",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--tertiary-foreground",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/text/tertiary-foreground",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-accent-foreground",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/text/accent-foreground",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-destructive-foreground",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/text/destructive-foreground",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-success-foreground",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/text/success-foreground",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-warning-foreground",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/text/warning-foreground",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-card-foreground",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/text/card-foreground",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-popover-foreground",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/text/popover-foreground",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-sidebar-foreground",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/text/sidebar-foreground",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-background",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/background",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-foreground",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/foreground",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-card",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/card",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-popover",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/popover",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-sidebar",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/sidebar",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-input",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/input",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-primary",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/primary",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-secondary",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/secondary",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--tertiary",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/tertiary",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-muted",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/muted",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-accent",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/accent",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-destructive",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/destructive",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-success",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/success",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-warning",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/warning",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-chart-1",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/chart-1",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-chart-2",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/chart-2",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-chart-3",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/chart-3",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-chart-4",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/chart-4",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--bg-chart-5",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/chart-5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--hover:bg-primary/90",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/primary-hover",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--active:bg-primary",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/primary-active",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--hover:bg-secondary/80",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/secondary-hover",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--active:bg-secondary",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/secondary-active",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--hover:bg-destructive/90",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/destructive-hover",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--active:bg-destructive",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/destructive-active",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--hover:bg-accent",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/accent-hover",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--active:bg-accent",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/accent-active",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--hover:bg-tertiary/90",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/tertiary-hover",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--tertiary-active",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/tertiary-active",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--success-hover",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/success-hover",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--success-active",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/success-active",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--warning-hover",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/warning-hover",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--warning-active",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/bg/warning-active",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--border-primary",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/border/primary",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--border-secondary",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/border/secondary",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--tertiary-border",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/border/tertiary",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--border-accent",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/border/accent",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--border-destructive",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/border/destructive",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--border-success",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/border/success",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--border-warning",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/border/warning",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--border-card",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/border/card",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--border-popover",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/border/popover",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--border-border",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/border/border",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--border-muted",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/border/muted",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--border-input",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/border/input",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--border-sidebar-border",
+      "collection": "primitives",
+      "name": "web-tailwind/Theme/border/sidebar-border",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--rounded-none",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/Corner/None",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--rounded-sm",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/Corner/Extra-small",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--rounded",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/Corner/Small",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--rounded-md",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/Corner/Medium",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--rounded-lg",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/Corner/Large",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--rounded-xl",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/Corner/Large-increased",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--rounded-2xl",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/Corner/Extra-large",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--rounded-3xl",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/Corner/Extra-large-increased",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--rounded-4xl",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/Corner/Extra-extra-large",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--rounded-full",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/Corner/Full",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--border-0",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/border/none",
+      "mode": "Default",
+      "ambiguous": true
+    },
+    {
+      "var": "--border",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/border/thin",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--border-2",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/border/medium",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--border-4",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/border/thick",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-0",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/0",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-1",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/1",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-2",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/2",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-3",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/3",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-4",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/4",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-6",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/6",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-7",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/7",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-8",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/8",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-9",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/9",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-10",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/10",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-11",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/11",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-12",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/12",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-14",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/14",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-16",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/16",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-20",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/20",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-24",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/24",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-28",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/28",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-32",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/32",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-36",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/36",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-40",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/40",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-44",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/44",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-48",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/48",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-52",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/52",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-56",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/56",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-60",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/60",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-64",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/64",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-72",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/72",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-80",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/80",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-p-96",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/96",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--p-0.5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/0_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--p-1.5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/1_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--p-2.5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/2_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--p-3.5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/p/3_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-0",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/0",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-1",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/1",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-2",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/2",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-3",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/3",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-4",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/4",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-6",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/6",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-7",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/7",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-8",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/8",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-9",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/9",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-10",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/10",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-11",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/11",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-12",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/12",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-14",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/14",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-16",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/16",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-20",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/20",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-24",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/24",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-28",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/28",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-32",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/32",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-36",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/36",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-40",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/40",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-44",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/44",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-48",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/48",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-52",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/52",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-56",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/56",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-60",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/60",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-64",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/64",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-72",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/72",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-80",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/80",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-px-96",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/96",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--px-0.5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/0_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--px-1.5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/1_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--px-2.5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/2_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--px-3.5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/px/3_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-0",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/0",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-1",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/1",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-2",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/2",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-3",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/3",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-4",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/4",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-6",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/6",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-7",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/7",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-8",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/8",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-9",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/9",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-10",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/10",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-11",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/11",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-12",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/12",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-14",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/14",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-16",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/16",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-20",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/20",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-24",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/24",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-28",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/28",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-32",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/32",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-36",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/36",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-40",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/40",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-44",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/44",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-48",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/48",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-52",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/52",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-56",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/56",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-60",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/60",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-64",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/64",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-72",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/72",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-80",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/80",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-py-96",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/96",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--py-0.5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/0_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--py-1.5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/1_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--py-2.5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/2_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--py-3.5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/padding/py/3_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-0",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/0",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-1",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/1",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-2",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/2",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-3",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/3",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-4",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/4",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-6",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/6",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-7",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/7",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-8",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/8",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-9",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/9",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-10",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/10",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-11",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/11",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-12",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/12",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-14",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/14",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-16",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/16",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-20",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/20",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-24",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/24",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-28",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/28",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-32",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/32",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-36",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/36",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-40",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/40",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-44",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/44",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-48",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/48",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-52",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/52",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-56",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/56",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-60",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/60",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-64",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/64",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-72",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/72",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-80",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/80",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-gap-96",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/96",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--gap-0.5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/0_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--gap-1.5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/1_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--gap-2.5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/2_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--gap-3.5",
+      "collection": "primitives",
+      "name": "web-tailwind/Layout/gap/3_5",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--shadow-sm",
+      "collection": "primitives",
+      "name": "web-tailwind/Effects/elevation/100",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--shadow",
+      "collection": "primitives",
+      "name": "web-tailwind/Effects/elevation/200",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--shadow-md",
+      "collection": "primitives",
+      "name": "web-tailwind/Effects/elevation/400",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--shadow-lg",
+      "collection": "primitives",
+      "name": "web-tailwind/Effects/elevation/800",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--shadow-xl",
+      "collection": "primitives",
+      "name": "web-tailwind/Effects/elevation/1600",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--opacity-100",
+      "collection": "primitives",
+      "name": "web-tailwind/Effects/opacity/opaque",
+      "mode": "Default",
+      "ambiguous": true
+    },
+    {
+      "var": "--opacity-70",
+      "collection": "primitives",
+      "name": "web-tailwind/Effects/opacity/muted",
+      "mode": "Default",
+      "ambiguous": true
+    },
+    {
+      "var": "--opacity-50",
+      "collection": "primitives",
+      "name": "web-tailwind/Effects/opacity/medium",
+      "mode": "Default",
+      "ambiguous": true
+    },
+    {
+      "var": "--opacity-40",
+      "collection": "primitives",
+      "name": "web-tailwind/Effects/opacity/disabled",
+      "mode": "Default",
+      "ambiguous": true
+    },
+    {
+      "var": "--opacity-10",
+      "collection": "primitives",
+      "name": "web-tailwind/Effects/opacity/faint",
+      "mode": "Default",
+      "ambiguous": true
+    },
+    {
+      "var": "--opacity-0",
+      "collection": "primitives",
+      "name": "web-tailwind/Effects/opacity/transparent",
+      "mode": "Default",
+      "ambiguous": true
+    },
+    {
+      "var": "--ring-ring",
+      "collection": "primitives",
+      "name": "web-tailwind/Effects/ring/color",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--ring-[3px]",
+      "collection": "primitives",
+      "name": "web-tailwind/Effects/ring/width",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--ring-offset-2",
+      "collection": "primitives",
+      "name": "web-tailwind/Effects/ring/offset/width",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--ring-offset-background",
+      "collection": "primitives",
+      "name": "web-tailwind/Effects/ring/offset/color",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-4xl font-extrabold tracking-tight",
+      "collection": "primitives",
+      "name": "web-shadcn-typography/Heading 1/font-size",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-3xl font-semibold tracking-tight",
+      "collection": "primitives",
+      "name": "web-shadcn-typography/Heading 2/font-size",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-2xl font-semibold tracking-tight",
+      "collection": "primitives",
+      "name": "web-shadcn-typography/Heading 3/font-size",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-xl font-semibold tracking-tight",
+      "collection": "primitives",
+      "name": "web-shadcn-typography/Heading 4/font-size",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--color-leading-7",
+      "collection": "primitives",
+      "name": "web-shadcn-typography/Paragraph/font-size",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-xl text-muted-foreground",
+      "collection": "primitives",
+      "name": "web-shadcn-typography/Lead/font-size",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-lg font-semibold",
+      "collection": "primitives",
+      "name": "web-shadcn-typography/Large/font-size",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-sm font-medium leading-none",
+      "collection": "primitives",
+      "name": "web-shadcn-typography/Small/font-size",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--text-sm text-muted-foreground",
+      "collection": "primitives",
+      "name": "web-shadcn-typography/Muted/font-size",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--border-l-2 pl-6 italic",
+      "collection": "primitives",
+      "name": "web-shadcn-typography/Blockquote/font-size",
+      "mode": "Default",
+      "ambiguous": false
+    },
+    {
+      "var": "--font-mono text-sm font-semibold",
+      "collection": "primitives",
+      "name": "web-shadcn-typography/Inline code/font-size",
       "mode": "Default",
       "ambiguous": false
     }
