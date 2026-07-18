@@ -7,7 +7,7 @@ import { Icons } from '@/components/ui/icons';
  */
 figma.connect(
   Icons,
-  'https://www.figma.com/design/KgRowhi11oXBNoMwBHyzLG/Untitled?node-id=1-540',
+  'https://www.figma.com/design/UlSZwfPtQcbBxam3nrlUey/Untitled?node-id=1-540',
   {
     props: {
       icon: figma.enum('icon', { Variable: 'variable', Palette: 'palette', Squircle: 'squircle', Dl: 'dl', LogoMaterial: 'logo-material', LogoApple: 'logo-apple', LogoWeb: 'logo-web' }),

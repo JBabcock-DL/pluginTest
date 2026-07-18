@@ -7,7 +7,7 @@ import { Annotation } from '@/components/ui/annotation';
  */
 figma.connect(
   Annotation,
-  'https://www.figma.com/design/KgRowhi11oXBNoMwBHyzLG/Untitled?node-id=1-7652',
+  'https://www.figma.com/design/UlSZwfPtQcbBxam3nrlUey/Untitled?node-id=1-7652',
   {
     props: {
       kind: figma.enum('kind', { Padding: 'padding', Gap: 'gap' }),
