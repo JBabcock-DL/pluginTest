@@ -1,0 +1,24 @@
+{
+  "v": 1,
+  "kind": "component-spec",
+  "name": "Annotation",
+  "framework": "react",
+  "id": "8207f0e1-89db-4d8a-8f11-42bca0215629",
+  "variantMatrix": {
+    "kind": [
+      "padding",
+      "gap"
+    ]
+  },
+  "props": [],
+  "bindings": [],
+  "layout": {
+    "direction": "horizontal",
+    "gap": "8",
+    "sizing": {
+      "horizontal": "hug",
+      "vertical": "hug"
+    }
+  },
+  "slug": "annotation"
+}
