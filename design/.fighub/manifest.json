@@ -2,233 +2,296 @@
   "v": 1,
   "kind": "fighub-manifest",
   "sha": "",
-  "writtenAt": "2026-07-18T02:44:25.209Z",
+  "writtenAt": "2026-07-18T02:48:40.097Z",
   "items": [
     {
       "kind": "component",
       "driftId": "cmp/558d55d4-189f-4b9f-9dd1-617d33815484",
       "repoHash": "3f019307",
-      "figmaHash": "3f019307"
+      "figmaHash": "e4f5991d"
     },
     {
       "kind": "component",
       "driftId": "cmp/5b154c7e-8f75-4b33-93ef-197d9cf0b259",
       "repoHash": "c36f428e",
-      "figmaHash": "c36f428e"
+      "figmaHash": "44ca1ce9"
     },
     {
       "kind": "component",
       "driftId": "cmp/8128f7a8-f769-4661-88e4-7e3ff0f1dba9",
       "repoHash": "f4a70e08",
-      "figmaHash": "f4a70e08"
+      "figmaHash": "242be3a5"
     },
     {
       "kind": "component",
       "driftId": "cmp/9ea1cc9a-fa28-49c7-af24-023dcea7c72d",
       "repoHash": "bca7bb2e",
-      "figmaHash": "bca7bb2e"
+      "figmaHash": "56649df6"
     },
     {
       "kind": "component",
       "driftId": "cmp/bf2b86cf-1eda-48a8-9941-aeabffe67006",
       "repoHash": "bf208250",
-      "figmaHash": "bf208250"
+      "figmaHash": "70c67d94"
     },
     {
       "kind": "style",
       "driftId": "sty/effect/web-(tailwind)-blur-2xl",
       "repoHash": "b9fd3cd8",
-      "figmaHash": "b9fd3cd8",
-      "repoPath": "design/styles/effect/web-(tailwind)-blur-2xl.json"
+      "figmaHash": "b9fd3cd8"
     },
     {
       "kind": "style",
       "driftId": "sty/effect/web-(tailwind)-blur-3xl",
       "repoHash": "8d30ff49",
-      "figmaHash": "8d30ff49",
-      "repoPath": "design/styles/effect/web-(tailwind)-blur-3xl.json"
+      "figmaHash": "8d30ff49"
     },
     {
       "kind": "style",
       "driftId": "sty/effect/web-(tailwind)-blur-lg",
       "repoHash": "4af1fc0a",
-      "figmaHash": "4af1fc0a",
-      "repoPath": "design/styles/effect/web-(tailwind)-blur-lg.json"
+      "figmaHash": "4af1fc0a"
     },
     {
       "kind": "style",
       "driftId": "sty/effect/web-(tailwind)-blur-md",
       "repoHash": "bc721d8a",
-      "figmaHash": "bc721d8a",
-      "repoPath": "design/styles/effect/web-(tailwind)-blur-md.json"
+      "figmaHash": "bc721d8a"
     },
     {
       "kind": "style",
       "driftId": "sty/effect/web-(tailwind)-blur-sm",
       "repoHash": "26d131c2",
-      "figmaHash": "26d131c2",
-      "repoPath": "design/styles/effect/web-(tailwind)-blur-sm.json"
+      "figmaHash": "26d131c2"
     },
     {
       "kind": "style",
       "driftId": "sty/effect/web-(tailwind)-blur-xl",
       "repoHash": "c7374f2e",
-      "figmaHash": "c7374f2e",
-      "repoPath": "design/styles/effect/web-(tailwind)-blur-xl.json"
+      "figmaHash": "c7374f2e"
     },
     {
       "kind": "style",
       "driftId": "sty/effect/web-(tailwind)-blur-xs",
       "repoHash": "1c06f619",
-      "figmaHash": "1c06f619",
-      "repoPath": "design/styles/effect/web-(tailwind)-blur-xs.json"
+      "figmaHash": "1c06f619"
     },
     {
       "kind": "style",
       "driftId": "sty/effect/web-(tailwind)-focus-ring",
       "repoHash": "9de1dac7",
-      "figmaHash": "9de1dac7",
-      "repoPath": "design/styles/effect/web-(tailwind)-focus-ring.json"
+      "figmaHash": "9de1dac7"
     },
     {
       "kind": "style",
       "driftId": "sty/effect/web-(tailwind)-shadow-lg",
       "repoHash": "2f449b42",
-      "figmaHash": "2f449b42",
-      "repoPath": "design/styles/effect/web-(tailwind)-shadow-lg.json"
+      "figmaHash": "2f449b42"
     },
     {
       "kind": "style",
       "driftId": "sty/effect/web-(tailwind)-shadow-md",
       "repoHash": "53ff532d",
-      "figmaHash": "53ff532d",
-      "repoPath": "design/styles/effect/web-(tailwind)-shadow-md.json"
+      "figmaHash": "53ff532d"
     },
     {
       "kind": "style",
       "driftId": "sty/effect/web-(tailwind)-shadow-shadow",
       "repoHash": "63167eea",
-      "figmaHash": "63167eea",
-      "repoPath": "design/styles/effect/web-(tailwind)-shadow-shadow.json"
+      "figmaHash": "63167eea"
     },
     {
       "kind": "style",
       "driftId": "sty/effect/web-(tailwind)-shadow-sm",
       "repoHash": "d30df300",
-      "figmaHash": "d30df300",
-      "repoPath": "design/styles/effect/web-(tailwind)-shadow-sm.json"
+      "figmaHash": "d30df300"
     },
     {
       "kind": "style",
       "driftId": "sty/effect/web-(tailwind)-shadow-xl",
       "repoHash": "d3da9701",
-      "figmaHash": "d3da9701",
-      "repoPath": "design/styles/effect/web-(tailwind)-shadow-xl.json"
+      "figmaHash": "d3da9701"
     },
     {
       "kind": "style",
       "driftId": "sty/text/-doc-caption",
       "repoHash": "11e4cd72",
-      "figmaHash": "11e4cd72",
-      "repoPath": "design/styles/text/-doc-caption.json"
+      "figmaHash": "11e4cd72"
     },
     {
       "kind": "style",
       "driftId": "sty/text/-doc-code",
       "repoHash": "aeed551f",
-      "figmaHash": "aeed551f",
-      "repoPath": "design/styles/text/-doc-code.json"
+      "figmaHash": "aeed551f"
     },
     {
       "kind": "style",
       "driftId": "sty/text/-doc-section",
       "repoHash": "f105bd27",
-      "figmaHash": "f105bd27",
-      "repoPath": "design/styles/text/-doc-section.json"
+      "figmaHash": "f105bd27"
     },
     {
       "kind": "style",
       "driftId": "sty/text/-doc-token-name",
       "repoHash": "b3c33536",
-      "figmaHash": "b3c33536",
-      "repoPath": "design/styles/text/-doc-token-name.json"
+      "figmaHash": "b3c33536"
     },
     {
       "kind": "style",
       "driftId": "sty/text/web-(shadcn)-blockquote",
       "repoHash": "179d66a1",
-      "figmaHash": "179d66a1",
-      "repoPath": "design/styles/text/web-(shadcn)-blockquote.json"
+      "figmaHash": "179d66a1"
     },
     {
       "kind": "style",
       "driftId": "sty/text/web-(shadcn)-heading-1",
       "repoHash": "9bc0e749",
-      "figmaHash": "9bc0e749",
-      "repoPath": "design/styles/text/web-(shadcn)-heading-1.json"
+      "figmaHash": "9bc0e749"
     },
     {
       "kind": "style",
       "driftId": "sty/text/web-(shadcn)-heading-2",
       "repoHash": "1199e3b9",
-      "figmaHash": "1199e3b9",
-      "repoPath": "design/styles/text/web-(shadcn)-heading-2.json"
+      "figmaHash": "1199e3b9"
     },
     {
       "kind": "style",
       "driftId": "sty/text/web-(shadcn)-heading-3",
       "repoHash": "eb060b17",
-      "figmaHash": "eb060b17",
-      "repoPath": "design/styles/text/web-(shadcn)-heading-3.json"
+      "figmaHash": "eb060b17"
     },
     {
       "kind": "style",
       "driftId": "sty/text/web-(shadcn)-heading-4",
       "repoHash": "4329b738",
-      "figmaHash": "4329b738",
-      "repoPath": "design/styles/text/web-(shadcn)-heading-4.json"
+      "figmaHash": "4329b738"
     },
     {
       "kind": "style",
       "driftId": "sty/text/web-(shadcn)-inline-code",
       "repoHash": "961ef128",
-      "figmaHash": "961ef128",
-      "repoPath": "design/styles/text/web-(shadcn)-inline-code.json"
+      "figmaHash": "961ef128"
     },
     {
       "kind": "style",
       "driftId": "sty/text/web-(shadcn)-large",
       "repoHash": "7e6e2f7c",
-      "figmaHash": "7e6e2f7c",
-      "repoPath": "design/styles/text/web-(shadcn)-large.json"
+      "figmaHash": "7e6e2f7c"
     },
     {
       "kind": "style",
       "driftId": "sty/text/web-(shadcn)-lead",
       "repoHash": "8befdccb",
-      "figmaHash": "8befdccb",
-      "repoPath": "design/styles/text/web-(shadcn)-lead.json"
+      "figmaHash": "8befdccb"
     },
     {
       "kind": "style",
       "driftId": "sty/text/web-(shadcn)-muted",
       "repoHash": "746dcf7e",
-      "figmaHash": "746dcf7e",
-      "repoPath": "design/styles/text/web-(shadcn)-muted.json"
+      "figmaHash": "746dcf7e"
     },
     {
       "kind": "style",
       "driftId": "sty/text/web-(shadcn)-paragraph",
       "repoHash": "2557e463",
-      "figmaHash": "2557e463",
-      "repoPath": "design/styles/text/web-(shadcn)-paragraph.json"
+      "figmaHash": "2557e463"
     },
     {
       "kind": "style",
       "driftId": "sty/text/web-(shadcn)-small",
       "repoHash": "c1bf6c35",
-      "figmaHash": "c1bf6c35",
-      "repoPath": "design/styles/text/web-(shadcn)-small.json"
+      "figmaHash": "c1bf6c35"
+    },
+    {
+      "kind": "style",
+      "driftId": "sty/text/web-(tailwind)-text-2xl",
+      "repoHash": "4d77d82b",
+      "figmaHash": "4d77d82b",
+      "repoPath": "design/styles/text/web-(tailwind)-text-2xl.json"
+    },
+    {
+      "kind": "style",
+      "driftId": "sty/text/web-(tailwind)-text-3xl",
+      "repoHash": "258666d3",
+      "figmaHash": "258666d3",
+      "repoPath": "design/styles/text/web-(tailwind)-text-3xl.json"
+    },
+    {
+      "kind": "style",
+      "driftId": "sty/text/web-(tailwind)-text-4xl",
+      "repoHash": "352b7d8a",
+      "figmaHash": "352b7d8a",
+      "repoPath": "design/styles/text/web-(tailwind)-text-4xl.json"
+    },
+    {
+      "kind": "style",
+      "driftId": "sty/text/web-(tailwind)-text-5xl",
+      "repoHash": "3e90ac0a",
+      "figmaHash": "3e90ac0a",
+      "repoPath": "design/styles/text/web-(tailwind)-text-5xl.json"
+    },
+    {
+      "kind": "style",
+      "driftId": "sty/text/web-(tailwind)-text-6xl",
+      "repoHash": "91d1fb67",
+      "figmaHash": "91d1fb67",
+      "repoPath": "design/styles/text/web-(tailwind)-text-6xl.json"
+    },
+    {
+      "kind": "style",
+      "driftId": "sty/text/web-(tailwind)-text-7xl",
+      "repoHash": "de09a4c5",
+      "figmaHash": "de09a4c5",
+      "repoPath": "design/styles/text/web-(tailwind)-text-7xl.json"
+    },
+    {
+      "kind": "style",
+      "driftId": "sty/text/web-(tailwind)-text-8xl",
+      "repoHash": "4a2a7af8",
+      "figmaHash": "4a2a7af8",
+      "repoPath": "design/styles/text/web-(tailwind)-text-8xl.json"
+    },
+    {
+      "kind": "style",
+      "driftId": "sty/text/web-(tailwind)-text-9xl",
+      "repoHash": "6af68dff",
+      "figmaHash": "6af68dff",
+      "repoPath": "design/styles/text/web-(tailwind)-text-9xl.json"
+    },
+    {
+      "kind": "style",
+      "driftId": "sty/text/web-(tailwind)-text-base",
+      "repoHash": "cd60a22d",
+      "figmaHash": "cd60a22d",
+      "repoPath": "design/styles/text/web-(tailwind)-text-base.json"
+    },
+    {
+      "kind": "style",
+      "driftId": "sty/text/web-(tailwind)-text-lg",
+      "repoHash": "c86c33e3",
+      "figmaHash": "c86c33e3",
+      "repoPath": "design/styles/text/web-(tailwind)-text-lg.json"
+    },
+    {
+      "kind": "style",
+      "driftId": "sty/text/web-(tailwind)-text-sm",
+      "repoHash": "80c812f4",
+      "figmaHash": "80c812f4",
+      "repoPath": "design/styles/text/web-(tailwind)-text-sm.json"
+    },
+    {
+      "kind": "style",
+      "driftId": "sty/text/web-(tailwind)-text-xl",
+      "repoHash": "b6ed3357",
+      "figmaHash": "b6ed3357",
+      "repoPath": "design/styles/text/web-(tailwind)-text-xl.json"
+    },
+    {
+      "kind": "style",
+      "driftId": "sty/text/web-(tailwind)-text-xs",
+      "repoHash": "0cae1de5",
+      "figmaHash": "0cae1de5",
+      "repoPath": "design/styles/text/web-(tailwind)-text-xs.json"
     },
     {
       "kind": "token",
